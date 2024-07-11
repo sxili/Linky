@@ -154,7 +154,7 @@ $another_setting = isset($_SESSION['another_setting']) ? $_SESSION['another_sett
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $organizationName; ?> - Link Management App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="disk/styles.css">
     <style>
         body {
             <?php if ($invert_colors): ?>
